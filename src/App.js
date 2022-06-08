@@ -57,20 +57,20 @@ export default function SurveyJSReactApplication() {
       <div>
         <nav className="navbar navbar-default">
           <div className="container-fluid">
-            <div className="navbar-header">
-              <a className="navbar-brand" href="/">
-                SurveyJS + ReactJS
-              </a>
-            </div>
+            {/* <div className="navbar-header"> */}
+            {/*   <a className="navbar-brand" href="/"> */}
+            {/*     SurveyJS + ReactJS */}
+            {/*   </a> */}
+            {/* </div> */}
             <ul className="nav navbar-nav">
+              {/* <li> */}
+              {/*   <Link to="/">Home</Link> */}
+              {/* </li> */}
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/survey">Eingabe</Link>
               </li>
               <li>
-                <Link to="/survey">Survey</Link>
-              </li>
-              <li>
-                <Link to="/creator">SurveyJS Creator</Link>
+                <Link to="/creator">Kriterienset Editor</Link>
               </li>
               <li>
                 <Link to="/export">Export to PDF</Link>
